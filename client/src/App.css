@@ -1,0 +1,28 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.app {
+  min-width: 100vw;
+  min-height: 100vh;
+  /* background-color: linear-gradient(#0cbaba 45%, #380036 55%); */
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+
+.dashboard {
+  background-color: #51cd9c;
+}
+
+.message {
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+  color: red;
+}
+
